@@ -151,3 +151,28 @@ a:hover{
     align-self: center;
     margin-top: 5rem;
 }
+#logo{
+    transform: scale(0.4) translate(-50%,-70%);
+    margin-left: 0;
+    margin-top: 7rem;
+}
+#fname{
+    border: none;
+    border-bottom: 0.5px solid black;
+    width: 100%;
+    padding-bottom: 0.5rem;
+    font-weight: 300;
+}
+.fa-bluetooth-b{
+    margin-left: -2rem;
+    margin-right: 2rem;
+}
+.stepsbutton{
+    background-color: transparent;
+    font-weight: 300;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 2px;
+
+}
