@@ -174,5 +174,37 @@ a:hover{
     background-color: orange;
     border: none;
     border-radius: 2px;
+}
+.bleutoothbox{
+    background-color: orange;
+    border-radius: 5px;
+    padding: 1.5rem;
+    text-align: center;
+    color: white;
+    
 
+}
+.title_bleutooth{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.bleutoothbox ul > li {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+.bleutoothbox ul > li:nth-last-child() {
+    margin: 0;
+}
+.bleutoothbox hr{
+    margin-top: -1rem;
+    margin-left: 3.1rem;
+    width: 70%;
+    transform: translateX(-5%);
+    background-color: white;
+    
+}
+.bleutoothbox .btn{
+    color: white !important;
+    margin: 0;
+    border-color: white;
 }
