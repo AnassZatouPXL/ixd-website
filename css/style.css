@@ -199,7 +199,6 @@ a:hover{
     padding: 1.5rem;
     text-align: center;
     color: white;
-
 }
 .title_bleutooth{
     font-size: 1.5rem;
@@ -242,8 +241,12 @@ a:hover{
     content: '';
     left: 0;
     top: 50%;
-    transform: translate(50%,50%);
+    transform: translate(50%,-50%);
     width: 50%;
     height: 13%;
     border: 3px solid white;
 }
+@keyframes mymove {
+    from {bottom: 0;}
+    to {top: 100%}
+  }
